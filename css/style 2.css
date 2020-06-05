@@ -77,9 +77,9 @@ h1{
 }
 .ptext{
     position: relative;
-    margin: 0 auto;
+    margin: 15% auto;
     padding-top: 0;
-    width: 60%;
+    width: 40%;
     text-align: center;
     color:#fff;
     font-size: 2rem;
@@ -113,4 +113,12 @@ h1{
 .notes{
     padding-bottom: 1rem;
     line-height: 2.5rem;
+}
+section p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+section h2{
+    margin-top: 1rem;
 }
