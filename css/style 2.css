@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+h1{
+    margin: 0;
+    
+}
+
+
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7, .pimg8, .pimg9{
+    position: relative;
+    opacity: 1;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -2;
+} 
+
+.pimg1 {
+    background-image: url(../img/referencePhoto/adventure-bay-blue-boat-144634.jpg);
+    min-height: 100%;
+}
+
+.pimg2{
+    background-image: url(../img/referencePhoto/architecture-attraction-bay-beach-356862.jpg);
+    min-height: 500px;
+}
+
+.pimg3{
+    background-image: url(../img/referencePhoto/adventure-bay-blue-boat-144634.jpg);
+    min-height: 500px;
+}
+
+.pimg4{
+    background-image: url(../img/referencePhoto/building-with-chains-and-glass-windows-1683292.jpg);
+    min-height: 500px;
+}
+.pimg5{
+    background-image: url(../img/referencePhoto/calm-daylight-docking-area-harbor-357499.jpg);
+    min-height: 500px;
+}
+
+.pimg6{
+    background-image: url(../img/referencePhoto/gray-steel-structure-2425126.jpg);
+    min-height: 500px;
+}
+
+.pimg7{
+    background-image: url(../img/referencePhoto/view-of-factory-against-blue-sky-257700.jpg);
+    min-height: 500px;
+}
+
+.pimg8{
+    background-image: url(../img/referencePhoto/white-cruise-ship-on-the-sea-945177.jpg);
+    min-height: 500px;
+}
+
+.pimg9{
+    background-image: url(../img/referencePhoto/white-heavy-equipment-3906736.jpg);
+    min-height: 500px;
+}
+.ccontainer{
+    position: absolute;
+    margin: 0 auto;
+    padding: 0;
+    top: 30%;
+    width: 100%
+}
+.ptext{
+    position: relative;
+    margin: 0 auto;
+    padding-top: 0;
+    width: 60%;
+    text-align: center;
+    color:#fff;
+    font-size: 2rem;
+}
+
+.ptext::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #666;
+    opacity: 0.6;
+    z-index: -1;
+}
+
+h1{
+    letter-spacing: 8px;
+    line-height: 5rem !important;
+    padding-top: 1rem;
+}
+
+.menu{
+    letter-spacing: 6px;
+    line-height: 4rem !important;
+
+    text-transform: uppercase;
+}
+
+.notes{
+    padding-bottom: 1rem;
+    line-height: 2.5rem;
+}
